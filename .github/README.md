@@ -1,7 +1,7 @@
 # 🟡 Community Browser CDN Build – JavaScript SDK Client Package
 
 This repository provides a **community-maintained, browser-ready distribution** of the npm module
-[`@aws-sdk/client-artifact`](https://www.npmjs.com/package/@aws-sdk/client-artifact/v/3.863.0).
+[`@aws-sdk/client-artifact`](https://www.npmjs.com/package/@aws-sdk/client-artifact/v/3.864.0).
 
 Each package is **automatically built and published to a CDN**, allowing developers to use the SDK client **directly in browsers** with **zero bundling or build steps**.
 
@@ -28,13 +28,13 @@ You can use this package directly in the browser via **jsDelivr** using an **imp
 CDN URL
 
 ```text
-https://cdn.jsdelivr.net/gh/cloud-sdk-builds/client-artifact@3.863.0/index.min.mjs
+https://cdn.jsdelivr.net/gh/cloud-sdk-builds/client-artifact@3.864.0/index.min.mjs
 ```
 
 SRI SHA Hash
 
 ```text
-sha384-IS9P6JaRRJs6d/8a06yu7W09Dx13HyH9zH8s7leLA6gVyblRE84Sa0GoSjDmkE8w
+sha384-6ODt2SQEr1hEz+E37SVzDBvwEuy6FFZ25ez3SMmoZ7v5F1bvW/c5rQlezukjjsk2
 ```
 
 ### 📌 Latest Version
@@ -61,10 +61,10 @@ ImportMap
 <script type="importmap">
       {
         "imports": {
-            "@aws-sdk/client-artifact": "https://cdn.jsdelivr.net/gh/cloud-sdk-builds/client-artifact@3.863.0/index.min.mjs"
+            "@aws-sdk/client-artifact": "https://cdn.jsdelivr.net/gh/cloud-sdk-builds/client-artifact@3.864.0/index.min.mjs"
         },
           "integrity": {
-            "https://cdn.jsdelivr.net/gh/cloud-sdk-builds/client-artifact@3.863.0/index.min.mjs": "sha384-IS9P6JaRRJs6d/8a06yu7W09Dx13HyH9zH8s7leLA6gVyblRE84Sa0GoSjDmkE8w"
+            "https://cdn.jsdelivr.net/gh/cloud-sdk-builds/client-artifact@3.864.0/index.min.mjs": "sha384-6ODt2SQEr1hEz+E37SVzDBvwEuy6FFZ25ez3SMmoZ7v5F1bvW/c5rQlezukjjsk2"
         }
       }
 </script>
@@ -81,10 +81,10 @@ Full Importmap Example
             <script type="importmap">
                   {
                     "imports": {
-                        "@aws-sdk/client-artifact": "https://cdn.jsdelivr.net/gh/cloud-sdk-builds/client-artifact@3.863.0/index.min.mjs"
+                        "@aws-sdk/client-artifact": "https://cdn.jsdelivr.net/gh/cloud-sdk-builds/client-artifact@3.864.0/index.min.mjs"
                     },
                       "integrity": {
-                        "https://cdn.jsdelivr.net/gh/cloud-sdk-builds/client-artifact@3.863.0/index.min.mjs": "sha384-IS9P6JaRRJs6d/8a06yu7W09Dx13HyH9zH8s7leLA6gVyblRE84Sa0GoSjDmkE8w"
+                        "https://cdn.jsdelivr.net/gh/cloud-sdk-builds/client-artifact@3.864.0/index.min.mjs": "sha384-6ODt2SQEr1hEz+E37SVzDBvwEuy6FFZ25ez3SMmoZ7v5F1bvW/c5rQlezukjjsk2"
                     }
                   }
             </script>
@@ -151,7 +151,7 @@ Replace
 
 When using CDN builds in production environments:
 
-* Always pin to a specific version (`@3.863.0`)
+* Always pin to a specific version (`@3.864.0`)
 * Avoid using `latest` in production to prevent unexpected breaking changes
 
 ---
@@ -171,7 +171,7 @@ https://github.com/cloud-sdk-builds/.github/issues
 This distribution follows the license terms included in the repository:
 
 ```
-https://github.com/cloud-sdk-builds/client-artifact/blob/refs/tags/3.863.0/LICENSE
+https://github.com/cloud-sdk-builds/client-artifact/blob/refs/tags/3.864.0/LICENSE
 ```
 
 ---
